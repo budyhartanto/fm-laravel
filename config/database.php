@@ -65,12 +65,12 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('postgres://veyoheltlzmxig:fc954f49676e82e21177a12592bde705a47cd08dec49540b8cbb26cbd01ad0b2@ec2-3-234-85-177.compute-1.amazonaws.com:5432/d6ocolj0u92lq1'),
-            'host' => env('DB_HOST', 'ec2-3-234-85-177.compute-1.amazonaws.com'),
+            'url' => env('postgres://bmwhikkvegjwxt:c217eb3dde1ad021d1ffa2d162ef029a9c4e9e66b512f316829190313f555993@ec2-3-233-7-12.compute-1.amazonaws.com:5432/d5cqh843m4vdge'),
+            'host' => env('DB_HOST', 'ec2-3-233-7-12.compute-1.amazonaws.com'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'd6ocolj0u92lq1'),
-            'username' => env('DB_USERNAME', 'veyoheltlzmxig'),
-            'password' => env('DB_PASSWORD', '676e82e21177a12592bde705a47cd08dec49540b8cbb26cbd01ad0b2'),
+            'database' => env('DB_DATABASE', 'd5cqh843m4vdge'),
+            'username' => env('DB_USERNAME', 'bmwhikkvegjwxt'),
+            'password' => env('DB_PASSWORD', 'c217eb3dde1ad021d1ffa2d162ef029a9c4e9e66b512f316829190313f555993'),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
